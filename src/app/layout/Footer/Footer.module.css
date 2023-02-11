@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-gray-mid);
+}
+
+.footerItem {
+  cursor: default;
+}
+.footerItem:hover {
+  color: var(--color-black);
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

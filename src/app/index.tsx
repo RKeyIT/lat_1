@@ -1,10 +1,11 @@
 import './index.css'
 import React from 'react';
+import Layout from "./layout";
 
 const App = () => {
     return (
-        <div>
-            KEK
+        <div className="app-wrapper">
+            <Layout />
         </div>
     );
 };
