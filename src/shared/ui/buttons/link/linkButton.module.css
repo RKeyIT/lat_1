@@ -1,0 +1,10 @@
+.linkButton {
+  padding: 10px 20px;
+  border: 1px solid;
+  text-decoration: none;
+}
+.linkButton:hover {
+  color: var(--color-bg-blue);
+}
+
+/*# sourceMappingURL=linkButton.module.css.map */

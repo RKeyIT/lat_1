@@ -4,7 +4,6 @@ import styles from "./Footer.module.css"
 const Footer = () => {
     return (
         <footer>
-            <div className="container">
                 <div className={styles.content}>
                     <div className={styles.footerItem}>
                         Learn and Teach ©2023
@@ -13,7 +12,6 @@ const Footer = () => {
                         Let's change this world for better!
                     </div>
                 </div>
-            </div>
         </footer>
     );
 };

@@ -1,19 +1,28 @@
 import React from 'react';
 import Header from "./Header";
 import AsideLeft from "./Aside/AsideLeft";
-import Main from "./Main";
 import AsideRight from "./Aside/AsideRight";
 import Footer from "./Footer";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Profile from "../../page/Profile";
+import Error from "../../page/Error";
 
 const Layout = () => {
     return (
-        <div className="layout">
-            <Header />
-            <AsideLeft />
-            <Main />
-            <AsideRight />
-            <Footer />
-        </div>
+        <BrowserRouter>
+            <div className="layout">
+                <Header/>
+                <AsideLeft/>
+                <main>
+                    <Routes>
+                        <Route path="/" element={<Profile/>}/>
+                        <Route path="*" element={<Error/>}/>
+                    </Routes>
+                </main>
+                <AsideRight/>
+                <Footer/>
+            </div>
+        </BrowserRouter>
     );
 };
 
