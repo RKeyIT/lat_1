@@ -1,6 +1,6 @@
 .UserMessage {
   grid-area: UserMessage;
-  height: 500px;
+  height: 100px;
   width: 100%;
   background-color: var(--color-gray-mid);
 }
