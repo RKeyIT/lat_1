@@ -1,9 +1,9 @@
 import React from 'react';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Header from "./Header";
 import AsideLeft from "./Aside/AsideLeft";
 import AsideRight from "./Aside/AsideRight";
 import Footer from "./Footer";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Profile from "../../page/Profile";
 import Error from "../../page/Error";
 
@@ -13,9 +13,10 @@ const Layout = () => {
             <div className="layout">
                 <Header/>
                 <AsideLeft/>
-                <main>
+                <main className="content-wrapper">
                     <Routes>
                         <Route path="/" element={<Profile/>}/>
+                        <Route path="/profile" element={<Profile/>}/>
                         <Route path="*" element={<Error/>}/>
                     </Routes>
                 </main>

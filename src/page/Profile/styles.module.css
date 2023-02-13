@@ -1,0 +1,7 @@
+.grid {
+  display: grid;
+  grid-template-areas: "avatar description card";
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=styles.module.css.map */

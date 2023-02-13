@@ -1,0 +1,13 @@
+.avatarWrapper {
+  grid-area: avatar;
+  border-radius: 15%;
+  box-sizing: border-box;
+  background-color: var(--color-gray-mid);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk-w18XQWk6R5u_S8fQwypfwaocqgmqq5oXA&usqp=CAU");
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 300px;
+}
+
+/*# sourceMappingURL=UserAvatar.module.css.map */

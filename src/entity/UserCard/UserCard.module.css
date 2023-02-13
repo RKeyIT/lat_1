@@ -1,0 +1,8 @@
+.UserCard {
+  grid-area: card;
+  width: 500px;
+  height: 300px;
+  background-color: var(--color-gray-mid);
+}
+
+/*# sourceMappingURL=UserCard.module.css.map */
