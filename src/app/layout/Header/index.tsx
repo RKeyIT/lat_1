@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Header.module.css"
-import {LinkButton} from "../../../shared/ui/buttons/link";
+import {LinkButton} from "../../../shared/ui/buttons/LinkButton";
 
 const Header = () => {
     return (

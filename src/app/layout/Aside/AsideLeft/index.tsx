@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLinkButton} from "../../../../shared/ui/buttons/navLink";
+import {NavLinkButton} from "../../../../shared/ui/buttons/NavLinkButton";
 import styles from './AsideLeft.module.css'
 
 const AsideLeft = () => {
