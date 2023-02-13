@@ -1,0 +1,7 @@
+.UserTextArea {
+  grid-area: UserTextArea;
+  display: flex;
+  background-color: var(--color-gray-mid);
+}
+
+/*# sourceMappingURL=styles.module.css.map */
