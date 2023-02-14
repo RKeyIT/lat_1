@@ -1,17 +1,21 @@
 import React from 'react';
 import styles from './styles.module.css'
+import {Button} from "../../shared/ui/buttons/Button";
 
 export const UserDescription = () => {
     return (
         <div className={styles.description}>
             <div className={styles.name}>
-                NAME
+                Roman Krytski
             </div>
             <div className={styles.skills}>
-                skills
+                <ul>
+                    <li>TypeScript</li>
+                    <li>Funny</li>
+                </ul>
             </div>
             <div className={styles.button}>
-                button
+                <Button text={'More about user...'}/>
             </div>
         </div>
     );

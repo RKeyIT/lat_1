@@ -1,6 +1,10 @@
-.grid
+.ProfileGrid
   display: grid
   gap: 1px
   grid-template-columns: 1fr 2fr 2fr
-  grid-template-areas: "avatar description card" "UserActions UserTextArea UserTextArea" "UserMessage UserMessage UserMessage"
+  grid-template-areas: "avatar description card" "UserActions UserTextArea UserTextArea"
   justify-content: space-between
+
+.ProfileMessages
+  display: flex
+  flex-direction: column

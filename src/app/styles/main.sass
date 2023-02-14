@@ -29,11 +29,15 @@ header
     grid-area: aside-right
 main
   grid-area: main
+  overflow-y: scroll
 footer
   grid-area: footer
   display: flex
 
 // NavLink button auto class
 .active
-  background-color: var(--color-gray-mid)
+  background-color: var(--color-gray-light)
   cursor: default
+
+textarea
+  resize: none

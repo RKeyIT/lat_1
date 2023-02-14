@@ -1,11 +1,9 @@
 .UserActions {
   grid-area: UserActions;
-  background-color: var(--color-gray-mid);
+  background-color: var(--color-gray-light);
   width: 200px;
   height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
 }
 
 /*# sourceMappingURL=styles.module.css.map */

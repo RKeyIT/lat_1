@@ -32,6 +32,7 @@ header {
 
 main {
   grid-area: main;
+  overflow-y: scroll;
 }
 
 footer {
@@ -40,8 +41,12 @@ footer {
 }
 
 .active {
-  background-color: var(--color-gray-mid);
+  background-color: var(--color-gray-light);
   cursor: default;
+}
+
+textarea {
+  resize: none;
 }
 
 /*# sourceMappingURL=main.css.map */

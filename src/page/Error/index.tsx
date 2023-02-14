@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './styles.module.css'
 
 const Error = () => {
     return (
-        <div>
-            Error not found 404!
+        <div className={styles.Error}>
+            Page is not found 404!
         </div>
     );
 };

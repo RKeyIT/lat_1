@@ -1,6 +1,5 @@
 .description {
-  display: flex;
-  flex-direction: column;
+  display: grid;
 }
 
 /*# sourceMappingURL=styles.module.css.map */

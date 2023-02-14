@@ -1,7 +1,18 @@
 .UserTextArea {
   grid-area: UserTextArea;
-  display: flex;
-  background-color: var(--color-gray-mid);
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  background-color: var(--color-gray-light);
+}
+
+.Controls {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.ControlButtons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /*# sourceMappingURL=styles.module.css.map */

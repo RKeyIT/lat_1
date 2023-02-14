@@ -7,17 +7,22 @@ import {UserActions} from "../../entity/UserActions";
 import {UserTextArea} from "../../entity/UserTextArea";
 import {UserMessage} from "../../entity/UserMessage";
 
-const Profile = () => {
+export const Profile = () => {
     return (
-        <div className={styles.grid}>
-            <UserAvatar />
-            <UserDescription />
-            <UserCard />
-            <UserActions />
-            <UserTextArea />
-            <UserMessage />
-        </div>
+        <>
+            <div className={styles.ProfileGrid}>
+                <UserAvatar />
+                <UserDescription />
+                <UserCard />
+                <UserActions />
+                <UserTextArea />
+            </div>
+            <div className={styles.ProfilePosts}>
+                <UserMessage />
+                <UserMessage />
+                <UserMessage />
+                <UserMessage />
+            </div>
+        </>
     );
 };
-
-export default Profile;
