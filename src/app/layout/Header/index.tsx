@@ -7,10 +7,10 @@ const Header = () => {
         <header className={styles.header}>
             <div className={styles.icon}></div>
             <ul className={styles.menu}>
-                <li><LinkButton path={''} text={'Learning'}/></li>
-                <li><LinkButton path={''} text={'Teaching'}/></li>
-                <li><LinkButton path={''} text={'Donate'}/></li>
-                <li><LinkButton path={''} text={'Show/Hide UI'}/></li>
+                <li className={styles.menuItem}><LinkButton path={''} text={'Learning'}/></li>
+                <li className={styles.menuItem}><LinkButton path={''} text={'Teaching'}/></li>
+                <li className={styles.menuItem}><LinkButton path={''} text={'Donate'}/></li>
+                <li className={styles.menuItem}><LinkButton path={''} text={'Show/Hide UI'}/></li>
             </ul>
         </header>
     );

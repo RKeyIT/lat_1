@@ -304,4 +304,12 @@ template {
     display: none;
 }
 
+/*  [My custom rules]  */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
 /*# sourceMappingURL=normalize.css.map */

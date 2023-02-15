@@ -1,7 +1,7 @@
 export interface IButtonProps {
     handler?: () => void;
     text: string;
-    className?: string;
+    style?: string;
 }
 
 // TODO:
@@ -11,11 +11,11 @@ export interface IButtonProps {
 export interface ILinkButtonProps {
     path: string;
     text: string;
-    className?: string;
+    style?: string;
 }
 
 export interface INavLinkButtonProps {
     path: string;
     text: string;
-    className?: string;
+    style?: string;
 }

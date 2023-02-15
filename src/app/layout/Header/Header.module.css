@@ -17,4 +17,8 @@
   list-style: none;
 }
 
+.menuItem:last-child {
+  margin-right: 0;
+}
+
 /*# sourceMappingURL=Header.module.css.map */

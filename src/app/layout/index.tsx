@@ -1,11 +1,10 @@
 import React from 'react';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Header from "./Header";
 import AsideLeft from "./Aside/AsideLeft";
 import AsideRight from "./Aside/AsideRight";
 import Footer from "./Footer";
-import {Profile} from "../../page/Profile";
-import Error from "../../page/Error";
+import Main from "./Main";
 
 const Layout = () => {
     return (
@@ -13,13 +12,7 @@ const Layout = () => {
             <div className="layout">
                 <Header/>
                 <AsideLeft/>
-                <main className="content-wrapper">
-                    <Routes>
-                        <Route path="/" element={<Profile/>}/>
-                        <Route path="/profile" element={<Profile/>}/>
-                        <Route path="*" element={<Error/>}/>
-                    </Routes>
-                </main>
+                <Main />
                 <AsideRight/>
                 <Footer/>
             </div>

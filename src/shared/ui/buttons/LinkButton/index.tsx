@@ -3,10 +3,9 @@ import {Link} from "react-router-dom";
 import styles from '../buttons.module.css'
 import {ILinkButtonProps} from "../interfaces";
 
-export const LinkButton = (props: ILinkButtonProps) => {
-    const {path, text} = props
+export const LinkButton: React.FC<ILinkButtonProps> = ({path,text,style }) => {
     return (
-        <Link to={path} className={styles.linkButton}>
+        <Link to={path} className={`${styles.button}${style ? ' ' + style : ''}`}>
             {text}
         </Link>
     );

@@ -20,6 +20,10 @@
   color: var(--color-black);
 }
 
+.LastActivityList {
+  list-style: circle;
+}
+
 .Charts {
   display: grid;
   grid-template-rows: 1fr 5fr 5fr;

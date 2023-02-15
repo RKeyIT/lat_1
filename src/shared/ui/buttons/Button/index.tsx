@@ -1,11 +1,10 @@
-import React from 'react';
+import React, {FC} from 'react';
 import styles from '../buttons.module.css'
 import {IButtonProps} from "../interfaces";
 
-export const Button = (props: IButtonProps) => {
-    const {handler, text} = props
+export const Button: FC<IButtonProps> = ({style,text,handler}) => {
     return (
-        <button onClick={handler}>
+        <button onClick={handler} className={`${styles.button}${style ? ' ' + style : ''}`}>
             {text}
         </button>
     );

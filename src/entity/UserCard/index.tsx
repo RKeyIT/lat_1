@@ -13,7 +13,7 @@ export const UserCard = () => {
                         All of my life I have a white streak!
                     </div>
                     <div className={styles.LastActivity}>
-                        <ul>
+                        <ul className={styles.LastActivityList}>
                             <li>Completed theme "Async/Await" of JavaScript</li>
                             <li>Exam CSS&Preprocessors passed</li>
                             <li>Test "Programming basics" passed</li>
@@ -29,7 +29,7 @@ export const UserCard = () => {
                 <div className={styles.UserRoundChart}>
                     Первая диаграма
                 </div>
-                <div className={styles.UserRoundChart2}>
+                <div className={styles.UserRadarChart}>
                     Вторая диаграма
                 </div>
             </div>
