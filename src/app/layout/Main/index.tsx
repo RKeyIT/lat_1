@@ -7,11 +7,14 @@ import styles from './styles.module.css'
 const Main = () => {
     return (
         <main className={styles.Main}>
-            <Routes>
-                <Route path="/" element={<Profile/>}/>
-                <Route path="/profile" element={<Profile/>}/>
-                <Route path="*" element={<Error/>}/>
-            </Routes>
+            <div className='container'>
+                <Routes>
+                    <Route path="/" element={<Profile/>}/>
+                    <Route path="/profile" element={<Profile/>}/>
+                    <Route path="*" element={<Error/>}/>
+                </Routes>
+            </div>
+
         </main>
     );
 };

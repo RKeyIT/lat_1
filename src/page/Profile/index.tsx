@@ -4,8 +4,8 @@ import {UserAvatar} from "../../entity/UserAvatar";
 import {UserCard} from "../../entity/UserCard";
 import {UserDescription} from "../../entity/UserDescription";
 import {UserActions} from "../../entity/UserActions";
-import {UserTextArea} from "../../entity/UserTextArea";
-import {UserMessage} from "../../entity/UserMessage";
+import {UserNewPost} from "../../entity/UserNewPost";
+import {UserPost} from "../../entity/UserPost";
 
 export const Profile = () => {
     return (
@@ -15,13 +15,13 @@ export const Profile = () => {
                 <UserDescription />
                 <UserCard />
                 <UserActions />
-                <UserTextArea />
+                <UserNewPost />
             </div>
             <div className={styles.ProfilePosts}>
-                <UserMessage />
-                <UserMessage />
-                <UserMessage />
-                <UserMessage />
+                <UserPost />
+                <UserPost />
+                <UserPost />
+                <UserPost />
             </div>
         </>
     );

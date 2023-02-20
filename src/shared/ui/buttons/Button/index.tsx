@@ -4,8 +4,8 @@ import {IButtonProps} from "../interfaces";
 
 export const Button: FC<IButtonProps> = ({style,text,handler}) => {
     return (
-        <button onClick={handler} className={`${styles.button}${style ? ' ' + style : ''}`}>
+        <span onClick={handler} className={`${styles.button}${style ? ' ' + style : ''}`}>
             {text}
-        </button>
+        </span>
     );
 };

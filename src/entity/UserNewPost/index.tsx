@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from './styles.module.css'
 import {Button} from "../../shared/ui/buttons/Button";
+import {TextArea} from "../../shared/ui/TextArea";
 
-export const UserTextArea = () => {
+export const UserNewPost = () => {
+    const [value, setValue] = useState('')
+
     return (
         <div className={styles.UserTextArea}>
-            <textarea placeholder={'Create post'}/>
+            <TextArea value={value} onChange={e=>setValue(e.target.value)} placeholder={'Enter message...'} />
             <div className={styles.Controls}>
                 <div className={styles.ControlButtons}>
                     <Button text={"A"}/>

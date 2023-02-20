@@ -15,10 +15,10 @@ html {
 /**
  * * Remove the margin in all browsers.
  * */
-body {
+html, body {
+    padding: 0;
     margin: 0;
 }
-
 /**
  * * Render the `main` element consistently in IE.
  * */
@@ -303,13 +303,5 @@ template {
 [hidden] {
     display: none;
 }
-
-/*  [My custom rules]  */
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 
 /*# sourceMappingURL=normalize.css.map */

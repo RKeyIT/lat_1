@@ -6,7 +6,7 @@ export const UserCard = () => {
         <div className={styles.UserCard}>
             <div className={styles.CardDescriptions}>
                 <div className={styles.CardName}>
-                    Activity community card of <span className={styles.UserName}>Roman Krytski</span>
+                    Activity community card of <span className={styles.UserName}>USER_NAME</span>
                 </div>
                 <div className={styles.UserDescription}>
                     <div className={styles.UserStatus}>

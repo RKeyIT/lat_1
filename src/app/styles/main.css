@@ -3,45 +3,15 @@ body {
   color: var(--color-black);
 }
 
-.layout {
-  display: grid;
-  grid-template-areas: "header header header" "aside-left main aside-right" "footer footer footer";
-  grid-template-columns: 1fr 10fr 1fr;
-  grid-template-rows: 1fr 10fr 1fr;
-  height: calc(100vh - var(--vertical-padding) * 2);
-  width: calc(100vw - var(--horizontal-padding) * 2);
-  margin: 0 auto;
-  padding: var(--vertical-padding) var(--horizontal-padding);
-}
-
-header, footer {
+header {
+  display: flex;
   align-items: center;
 }
 
-header {
-  grid-area: header;
-  display: flex;
-}
-
-.aside -left {
-  grid-area: aside-left;
-}
-.aside -right {
-  grid-area: aside-right;
-}
-
-main {
-  grid-area: main;
-}
-
-footer {
-  grid-area: footer;
-  display: flex;
-}
-
-.active {
-  background-color: var(--color-gray-light);
-  cursor: default;
+.container {
+  width: 98vw;
+  overflow: auto;
+  margin: 0 auto;
 }
 
 textarea {

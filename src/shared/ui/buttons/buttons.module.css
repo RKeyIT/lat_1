@@ -1,9 +1,10 @@
 .button {
-  padding: 5px 10px;
-  border: 1px solid;
   box-sizing: border-box;
   text-decoration: none;
   color: var(--color-black);
+  outline: none;
+  border: 1px solid;
+  cursor: pointer;
 }
 .button:hover {
   color: var(--color-blue-lightest);

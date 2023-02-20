@@ -1,23 +1,33 @@
 .header {
+  background-color: var(--color-gray-light);
+}
+
+.headerLayout {
   width: 100%;
   display: flex;
   justify-content: space-between;
-}
-
-.icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #0f0f0f;
+  position: relative;
 }
 
 .menu {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  background-color: var(--color-gray-light);
+  display: flex;
+  flex-direction: column;
+}
+.menuItem {
+  width: 100%;
+}
+
+.navigationList {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
-.menuItem:last-child {
+.navigationItem:last-child {
   margin-right: 0;
 }
 

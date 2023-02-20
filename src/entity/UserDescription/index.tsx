@@ -6,16 +6,16 @@ export const UserDescription = () => {
     return (
         <div className={styles.description}>
             <div className={styles.name}>
-                Roman Krytski
+                USER_NAME
             </div>
             <div className={styles.skills}>
-                <ul>
+                <ul> SKILLS
                     <li>TypeScript</li>
                     <li>Funny</li>
                 </ul>
             </div>
             <div className={styles.button}>
-                <Button text={'More about user...'}/>
+                <Button text={'More about USER_NAME'}/>
             </div>
         </div>
     );
