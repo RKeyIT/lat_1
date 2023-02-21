@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './styles.module.css'
+import {IUserPostProps} from "./interface";
 
-export const UserPost = () => {
+export const UserPost: React.FC<IUserPostProps> = ({message}) => {
     return (
         <div className={styles.MessageBlock}>
             <div className={styles.UserData}>
@@ -18,9 +19,7 @@ export const UserPost = () => {
                 </div>
             </div>
             <div className={styles.UserMessage}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet beatae deleniti earum enim explicabo
-                fuga fugiat impedit nostrum velit veniam, voluptates. Accusantium enim ipsum minima quam repellat
-                tenetur voluptatum!
+                {message}
             </div>
         </div>
     );

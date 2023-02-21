@@ -18,10 +18,11 @@ export const Profile = () => {
                 <UserNewPost />
             </div>
             <div className={styles.ProfilePosts}>
-                <UserPost />
-                <UserPost />
-                <UserPost />
-                <UserPost />
+                <UserPost message={'Hi everyone!'}/>
+                <UserPost message={'=)'}/>
+                <UserPost message={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet beatae deleniti earum enim explicabo\n' +
+                    '                fuga fugiat impedit nostrum velit veniam, voluptates. Accusantium enim ipsum minima quam repellat\n' +
+                    '                tenetur voluptatum!'}/>
             </div>
         </>
     );

@@ -16,7 +16,7 @@ export const UserNewPost = () => {
                     <Button text={"C"}/>
                     <Button text={"X"}/>
                 </div>
-                <Button text={"Send post"}/>
+                <Button text={"Send post"} />
             </div>
         </div>
     );

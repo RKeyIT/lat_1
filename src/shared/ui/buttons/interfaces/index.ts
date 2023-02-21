@@ -1,6 +1,6 @@
 export interface IButtonProps {
-    handler?: () => void;
     text: string;
+    handler?: () => void;
     style?: string;
 }
 

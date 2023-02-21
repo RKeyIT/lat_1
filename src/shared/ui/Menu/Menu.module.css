@@ -1,0 +1,15 @@
+.menu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  flex-direction: column;
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+}
+.menuItem {
+  background-color: var(--color-gray-light);
+  width: 100%;
+}
+
+/*# sourceMappingURL=Menu.module.css.map */

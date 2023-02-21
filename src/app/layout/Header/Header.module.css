@@ -6,19 +6,6 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  position: relative;
-}
-
-.menu {
-  position: absolute;
-  left: 0;
-  top: 20px;
-  background-color: var(--color-gray-light);
-  display: flex;
-  flex-direction: column;
-}
-.menuItem {
-  width: 100%;
 }
 
 .navigationList {
